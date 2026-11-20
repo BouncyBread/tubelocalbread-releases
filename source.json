@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "name": "TubeLocalBread",
+  "identifier": "com.bbsolutions.tube.source",
+  "subtitle": "Personal builds of TubeLocalBread",
+  "sourceURL": "https://bouncybread.github.io/tubelocalbread-releases/source.json",
+  "iconURL": "https://bouncybread.github.io/tubelocalbread-releases/icon.png",
+  "tintColor": "#E53935",
+  "apps": [
+    {
+      "name": "TubeLocalBread",
+      "bundleIdentifier": "com.bbsolutions.tube",
+      "developerName": "Bread",
+      "subtitle": "Ad-free YouTube player with downloads",
+      "localizedDescription": "Personal ad-free YouTube client: Piped/Invidious streams, background audio, downloads, smart downloads and casting.",
+      "iconURL": "https://bouncybread.github.io/tubelocalbread-releases/icon.png",
+      "tintColor": "#E53935",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.49",
+          "buildVersion": "49",
+          "date": "2026-11-20T13:59:41Z",
+          "localizedDescription": "- CLAUDE.md: leftover standalone SideStore row in LC+SS and how it was removed\n- Diagnostics: purge local logs older than 7 days (audit files, MetricKit payloads, patch log trim)\n- Captions in fullscreen: show the native subtitle track for the CC language, restore CC and caption size after exit\n- Rotate to landscape when a landscape web video goes fullscreen, back to portrait on exit\n- Audit log: caption probe (timedtext requests + caption DOM/track state on CC taps)",
+          "downloadURL": "https://bouncybread.github.io/tubelocalbread-releases/Tube.ipa?b=49",
+          "size": 5465946,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Find Chromecast devices to cast to, and connect to your self-hosted Piped/Invidious server or diagnostics collector on your network."
+        }
+      }
+    }
+  ],
+  "news": []
+}
