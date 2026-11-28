@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "name": "TubeLocalBread",
+  "identifier": "com.bbsolutions.tube.source",
+  "subtitle": "Personal builds of TubeLocalBread",
+  "sourceURL": "https://bouncybread.github.io/tubelocalbread-releases/source.json",
+  "iconURL": "https://bouncybread.github.io/tubelocalbread-releases/icon.png",
+  "tintColor": "#E53935",
+  "apps": [
+    {
+      "name": "TubeLocalBread",
+      "bundleIdentifier": "com.bbsolutions.tube",
+      "developerName": "Bread",
+      "subtitle": "Ad-free YouTube player with downloads",
+      "localizedDescription": "Personal ad-free YouTube client: Piped/Invidious streams, background audio, downloads, smart downloads and casting.",
+      "iconURL": "https://bouncybread.github.io/tubelocalbread-releases/icon.png",
+      "tintColor": "#E53935",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.74",
+          "buildVersion": "74",
+          "date": "2026-11-28T16:32:24Z",
+          "localizedDescription": "- Release script: dry run stops before publishing\n- Release script: TLB_DRY_RUN builds and checks without publishing\n- Release: publish from this Mac when Actions won't run; version = max(run number, published + 1)\n- Social tab: hide Get-the-app / Open-in-app prompts on LinkedIn and X\n- Social tab: hide promoted posts on LinkedIn and X, plus X's Get-the-app card and Premium upsells",
+          "downloadURL": "https://bouncybread.github.io/tubelocalbread-releases/Tube.ipa?b=74",
+          "size": 23368023,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Find Chromecast devices to cast to, and connect to your self-hosted Piped/Invidious server or diagnostics collector on your network."
+        }
+      }
+    }
+  ],
+  "news": []
+}
